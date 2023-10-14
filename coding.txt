@@ -1,0 +1,41 @@
+step1-get two input files
+step2-compare the two input file 
+step3- by uding two for loops and if concept inside the for loop we can compare the the values with the index and if the value match
+step3-create two output files
+step4-store the matching value in one output files
+step5-if the values didin't match then store the value in 2nd output file wich is outer the if condition
+
+int a[10],b[10],o1[10],o2[10];
+for(int i=0;i<10;++i)
+scanf("%d",&a[i]);
+for(int i=0;i<10;++i)
+scanf("%d",&b[i]);
+for(int i=0;i<10;++i)
+{
+for(int j=0;j<10;++j)
+{
+if(a[i]==b[j])
+{
+o1[i]=a[i];
+break;
+}
+if(a[i]!=b[j])
+{o2[i]=a[i];
+break;
+}
+}
+}
+for(int i=0;i<10;++i)
+printff("%d",a[i]);
+for(int i=0;i<10;++i)
+printf("%d",b[i]);
+
+emp-empno,empfname,emplname,empsalary,empdept
+dept-deptno,deptname,avgsal
+emp high sal
+select empno,empfname
+from emp
+where
+
+select empno,empfname,deptname
+from emp,dept; 
